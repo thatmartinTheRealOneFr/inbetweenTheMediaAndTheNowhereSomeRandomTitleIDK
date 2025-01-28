@@ -5,6 +5,14 @@
 		p{text-align: center;}
 	</style>
 	
+
+	
+<div>
+	<form onsubmit="checkValue()">
+		<input type="text" type="submit" name="code" id="code" autocomplete="off"  placeholder="ENTER CODE">
+	</form>
+</div>
+
 <script>
 function checkValue(event) {
 	const input = document.getElementById('code');
@@ -17,10 +25,3 @@ function checkValue(event) {
 	}
 }
 </script>
-
-	
-<div>
-	<form onsubmit="checkValue()">
-		<input type="text" type="submit" name="code" id="code" autocomplete="off"  placeholder="ENTER CODE">
-	</form>
-</div>
