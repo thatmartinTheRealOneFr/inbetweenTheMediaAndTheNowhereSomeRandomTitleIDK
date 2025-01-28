@@ -9,7 +9,7 @@
 	
 <div>
 	<form onsubmit="checkValue()">
-		<input type="text" type="submit" name="code" id="code" autocomplete="off"  placeholder="ENTER CODE">
+		<input type="text" name="code" id="code" autocomplete="off"  placeholder="ENTER CODE">
 	</form>
 </div>
 
@@ -18,7 +18,6 @@ function checkValue(event) {
 	const input = document.getElementById('code');
 	const inputValue = input.value;
 	if (inputValue.toUpperCase() == 'FUNNIE') {
-		alert('ACCEPTED');
 		window.location.href = 'funnie.html';
 	} else {
 		alert('UNKNOWN');
