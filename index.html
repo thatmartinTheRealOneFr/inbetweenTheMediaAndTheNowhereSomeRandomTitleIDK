@@ -15,6 +15,8 @@
 
 <script>
 function checkValue(event) {
+	event.preventDefault();
+	
 	const input = document.getElementById('code');
 	const inputValue = input.value;
 	if (inputValue.toUpperCase() == 'FUNNIE') {
