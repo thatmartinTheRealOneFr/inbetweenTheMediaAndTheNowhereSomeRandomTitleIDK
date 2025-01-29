@@ -1,0 +1,15 @@
+// Javascript SUCKS
+// if you are looking at this then you are CHEATING 
+		document.getElementById('code').addEventListener('keypress', function(event) {
+			if (event.key === 'Enter') {
+				event.preventDefault();
+
+				const input = document.getElementById('code');
+				const inputValue = input.value;
+				if (inputValue.toUpperCase() === 'FUNNIE') {
+					window.location.href = 'https://thatmartintherealonefr.github.io/inbetweenTheMediaAndTheNowhereSomeRandomTitleIDK/funnie.html';
+				} else {
+					alert('UNKNOWN');
+				}
+			}
+		});
