@@ -8,8 +8,8 @@
 				const inputValue = input.value;
 				if (inputValue.toUpperCase() === 'FUNNIE') {
 					window.location.href = 'https://thatmartintherealonefr.github.io/inbetweenTheMediaAndTheNowhereSomeRandomTitleIDK/funnie.html';
-				} elseif (inputValue.toUpperCase() === 'FUNNIE') {
-					window.location.href = 'https://thatmartintherealonefr.github.io/inbetweenTheMediaAndTheNowhereSomeRandomTitleIDK/funnie.html';
+				} elseif (inputValue.toUpperCase() === 'GRUNT') {
+					window.location.href = 'https://thatmartintherealonefr.github.io/inbetweenTheMediaAndTheNowhereSomeRandomTitleIDK/grunt.html';
 				} else {
 					alert('UNKNOWN');
 				}
