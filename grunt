@@ -1,0 +1,14 @@
+<head>
+	<style>
+		body{background-color: black;}
+		body{text-align: center;}
+		p{text-align: center;}
+    img{
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-right: auto;
+      margin-left: auto;
+	</style>
+</head>
+
+<img src="grunt.png">
